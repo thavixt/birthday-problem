@@ -20,3 +20,11 @@
 a {
   @apply text-indigo-600 hover:text-indigo-500 hover:underline
 }
+
+h1 {
+  @apply text-3xl font-bold
+}
+
+div.center, header.center, footer.center {
+  @apply flex flex-col justify-center items-center space-y-2 
+}
