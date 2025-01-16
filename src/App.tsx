@@ -59,7 +59,7 @@ function App() {
             <Line isAnimationActive={false} type="monotone" dataKey="Probabilty" stroke="#8884d8" activeDot={false} dot={false} />
             <ReferenceLine y={0.5} stroke="red" strokeDasharray="3 3" />
             <ReferenceLine x={23} label="~50% with 23 people" stroke="red" strokeDasharray="3 3" />
-            <ReferenceLine x={70} label="~99.9% with 112 people" stroke="red" strokeDasharray="3 3" />
+            <ReferenceLine x={70} label="~99.9% with 70 people" stroke="red" strokeDasharray="3 3" />
             <ReferenceLine x={112} label="~100% with 112 people" stroke="red" strokeDasharray="3 3" />
           </LineChart>
         </div>
