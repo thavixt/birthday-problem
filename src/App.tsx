@@ -1,4 +1,4 @@
-import { LineChart, XAxis, YAxis, Tooltip, Line, ReferenceLine, Legend } from 'recharts'
+import { LineChart, XAxis, YAxis, Tooltip, Line, ReferenceLine } from 'recharts'
 import { useEffect, useState } from 'react';
 import { birthdayProblem } from './logic/utils';
 
